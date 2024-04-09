@@ -52,7 +52,7 @@ ggplot(fafsa_geo) +
                      direction = -1,
                      labels = label_percent()) +
   labs(fill = "YoY Change in\nFAFSA Completion",
-       title = "FAFSA completion  droppped 39% from March 2023 to March 2024",
+       title = "FAFSA completion droppped 39% from March 2023 to March 2024",
        caption = "Reproduction of a chart orignially produced in the 'On Ed Tech' newsletter.\nhttps://onedtech.philhillaa.com/p/visualizing-fafsa-fiasco-by-geography") +
   theme_void() +
   theme(plot.caption = element_text(hjust = 0))
